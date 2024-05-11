@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url('assets/Capture.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100px;
+    width: 400px;
+    background-color: rgb(36, 202, 202);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -200%);
+}
+
+.circle {
+    height: 130px;
+    width: 128px;
+    border-radius: 50%;
+    background-color: rgba(214, 208, 208, 0.795);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -10%);
+    z-index: -1;
+}
+
+.circular {
+    z-index: 2;
+    border-radius: 50%;
+    height: 120px;
+    width: 120x;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1 {
+    height: 300px;
+    width: 400px;
+    background-color: rgba(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 67.9%;
+    transform: translate(-50%, -70%);
+    z-index: -1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.namesurname {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-60%, 40%);
+    color: solid black;
+}
+
+.age {
+    position: absolute;
+    left: 62%;
+    top: 20%;
+    transform: translate(30%, 30%);
+    color: black;
+}
+.location {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: rgba(78, 68, 68, 0.527);
+}
+
+.numbers {
+    position: absolute;
+    top: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    word-spacing: 50px;
+    margin: 38px;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    word-spacing: 90px;
+    position: absolute;
+    top: 90%;
+    left: 11%;
+    color: rgba(78, 68, 68, 0.527);
+}
+
+.line {
+    width: 400px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.466);
+    position: absolute;
+    top: 70%;
+}
+
